@@ -1,14 +1,27 @@
+/* all */
+
+.green{
+    color: lightgreen;
+}
+
+.blue{
+    color: lightskyblue;
+}
+
+/* end all */
+/* ------------------------------------------------------------------------------------------------------------*/
+
 /* nav bar*/
 #div-header{ 
-    background-image: url(../img/laptop4.jpg);
-    height: 20em;
+    background-image: url(../img/laptop7.jpg);
+    height: 40em;
     background-size: cover;
     
 }
 
 #header .header-background{
 	background:rgba(44, 44, 86, 0.5);
-    color: white !important;
+    color: lightskyblue;
 }
 
 #header .navbar-default{
@@ -26,7 +39,7 @@
 
 
 #header ul li a{
-    color: white;
+    color: whitesmoke;
 }
 #header ul li a:hover{
     color: rgb(190, 189, 193);
@@ -51,33 +64,37 @@
 }
 #header .dropdown-menu li{
     font-size: 12px;
-    display:inline-block;
+    display:block;  
     margin-left: 7em;
     margin-top: 1em;
 }
 /* end of nav bar*/
+/*-------------------------------------------------------------------------------------------------------------*/
 
 
 /* content */
+#content{
+    background-color: whitesmoke;
+    height: 46em;
+}  
 
-    
+/*сюда пишите css для своего контента
+
 
 /* end of content */
+/*--------------------------------------------------------------------------------------------------------------*/
 
-#content{
-    background-color: gainsboro;
-    height: 46em;
-}
 
 /*footer */
 #footer{
     height: 4em;
-    background-color: rgba(44, 44, 86, 1);
-    color: white;
+    background-color: rgba(44, 44, 86, 0.7);
+    color: aliceblue;
 }
 
-
 /* end of footer */
+/*----------------------------------------------------------------------------------------------------------------*/
+
 
 
 
