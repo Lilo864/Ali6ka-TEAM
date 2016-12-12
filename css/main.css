@@ -24,6 +24,11 @@
     color: lightskyblue;
 }
 
+#header #logo-center{
+    height: 75px;
+    width: 259px;
+}
+
 #header .navbar-default{
     border-color: rgba(44, 44, 86, 0.5);
 }
@@ -58,9 +63,9 @@
 #header .dropdown-menu{
     padding-top: 1em;
     background-color: rgba(44, 44, 86, 0.5);
-    top: 11.5em; /*height of main menu*/
+    top:11.5em; /*height of main menu*/
     width: 100%;
-    position: fixed;
+    position:fixed;
 }
 #header .dropdown-menu li{
     font-size: 12px;

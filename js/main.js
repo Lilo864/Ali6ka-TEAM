@@ -1,10 +1,25 @@
 //main java-script functions
 
-function openNav(nav) {
-    document.getElementById("myNav" + nav).style.height = "25%";  
+$(document).ready(function () {
 
-}
+    var menu = $('.menu');
+    var origOffsetY = menu.offset().top;
 
-function closeNav(nav) {
-    document.getElementById("myNav" + nav).style.height = "0%";
-}
+    function scroll() {
+        if ($(window).scrollTop() >= origOffsetY) {
+            $('.menu').addClass('sticky');
+            $('.content').addClass('menu-padding');
+        } else {
+            $('.menu').removeClass('sticky');
+            $('.content').removeClass('menu-padding');
+        }
+
+
+    }
+
+    document.onscroll = scroll;
+
+});
+
+
+
