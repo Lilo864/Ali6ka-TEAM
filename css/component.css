@@ -1,0 +1,238 @@
+.cbp-hrmenu {
+	width: 100%;
+	margin-top: 2em;
+    margin-left: 7em;
+}
+
+/* general ul style */
+.cbp-hrmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* first level ul style */
+.cbp-hrmenu > ul,
+.cbp-hrmenu .cbp-hrsub-inner {
+	width: 90%;
+	max-width: 85em;
+	margin: 0 auto;
+	padding: 0 1.875em;
+}
+
+.cbp-hrmenu > ul > li {
+	display: inline-block;
+}
+
+.cbp-hrmenu > ul > li > a {
+    position: relative;
+    color: #4270a9;
+    text-decoration: none;
+	font-weight: 700;
+	padding: 1em 1em;
+	display: inline-block;
+    text-transform: uppercase;
+}
+
+.cbp-hrmenu > ul > li > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0px;
+    left: 0;
+    background-color: #353c47;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.cbp-hrmenu > ul > li > a:hover:before{
+    visibility: visible;
+    -webkit-transform: scaleX(0.7);
+    transform: scaleX(0.7);
+}
+
+.cbp-hrmenu > ul > li > a:hover:after {
+	text-decoration: none;
+    font-weight: 500;
+}
+
+.cbp-hrmenu > ul > li.cbp-hropen a,
+.cbp-hrmenu > ul > li.cbp-hropen > a:hover {
+	text-decoration: none;	
+}
+
+/* sub-menu */
+.cbp-hrmenu .cbp-hrsub {
+	display: none;   
+    margin-bottom: 20px;
+	position: absolute;
+	background-color:rgba(160, 6, 57,0.9);
+    z-index:1000;
+	width: 100%;
+	left: 0;
+}
+
+.cbp-hropen .cbp-hrsub {
+	display: block;
+	padding-bottom: 3em;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner > div {
+	width: 33%;
+    float: left;
+	padding: 0 2em 0;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner:before,
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner:after {
+	clear: both;
+}
+
+.cbp-hrmenu .cbp-hrsub-inner > div a {
+	line-height: 2em;
+}
+
+/*menu with images*/
+.tab-content{
+    text-align: center;
+}
+.nav-tabs {
+  display: inline-block;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+.nav-list > li{ 
+  padding: 40px 0px 0px;
+}
+.nav-list > li > a{
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+
+}
+.nav-list > li > a:hover { 
+    text-decoration: none;
+    color: whitesmoke;
+    top: -10px;
+    
+}
+.nav-list > li > a > span {
+    font-family: "PT Sans","Helvetica Neue",sans-serif;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    left: 0;
+    min-height: 50px;
+    padding: 16px 10px 12px 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-list > li > a > .tab-blue{
+    background-color: #002147;
+}
+
+.nav-list > li > a > .tab-grey{
+    background-color: #2aab2c;
+}
+
+/* content of academics */
+.fading-side-menu.affix-top {
+    opacity: 1;
+    transition: opacity 1s
+}
+.fading-side-menu.affix {
+    top: 11.5px;
+}
+.fading-side-menu.affix {
+    opacity: 0.2;
+    transition: opacity 5s
+}
+.fading-side-menu.affix:hover {
+    opacity: 1;
+    transition: opacity 0.3s
+}
+/* RECOMMENDED STYLING BUT NOT REQUIRED */
+.fading-side-menu a {
+    color: rgb(102, 102, 102);
+}
+.fading-side-menu a .fa {
+    padding-right:15px;
+}
+
+
+/* Examples for media queries */
+
+@media screen and (max-width: 52.75em) { 
+
+	.cbp-hrmenu {
+		font-size: 80%;
+        margin-left: 0; 
+	}
+
+}
+
+@media screen and (max-width: 43em) { 
+
+	.cbp-hrmenu {
+		font-size: 120%;
+		border: none;
+        text-align: center;
+        margin-left: 0;
+	}
+
+	.cbp-hrmenu > ul,
+	.cbp-hrmenu .cbp-hrsub-inner {
+		width: 100%;
+		padding: 0;
+	}
+
+	.cbp-hrmenu .cbp-hrsub-inner {
+		padding: 0 2em;
+		font-size: 75%;
+	}
+
+	.cbp-hrmenu > ul > li {
+		display: block;
+	}
+
+	.cbp-hrmenu > ul > li > a { 
+		display: block;
+		padding: 1em 3em;
+	}
+
+	.cbp-hrmenu .cbp-hrsub { 
+		position: relative;
+	}
+
+	.cbp-hrsub h4 {
+		padding-top: 0.6em;
+	}
+    
+    #logo-centr{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 36em) { 
+	.cbp-hrmenu .cbp-hrsub-inner > div {
+		width: 100%;
+		float: none;
+		padding: 0 2em;
+	}
+}
+
+
+
+

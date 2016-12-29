@@ -1,0 +1,416 @@
+/* General Demo Style */ 
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+@font-face {
+	font-family: 'fontawesome';
+	src:url('../fonts/fontawesome.eot');
+	src:url('../fonts/fontawesome.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/fontawesome.svg#fontawesome') format('svg'),
+		url('../fonts/fontawesome.woff') format('woff'),
+		url('../fonts/fontawesome.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, html { font-size: 100%; 	padding: 0; margin: 0;}
+
+/* Reset */
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f8f8f8;
+}
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color:  gainsboro;
+}
+
+
+/************************************************************
+*************************Navbar******************************
+*************************************************************/
+#logo-centr{
+	padding-right: 10em;
+	width: 120%;
+	height: 18em;
+	
+}
+
+#search {
+    float: right;
+    margin-top: 9px;
+    width: 250px;
+}
+
+.search {
+    padding: 5px 0;
+    width: 230px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+    float: left;
+    line-height: 22px;
+    margin-left: 3em;
+}
+
+.search input {
+    position: absolute;
+    width: 0px;
+    float: Left;
+    margin-left: 210px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+    height: 30px;
+    line-height: 18px;
+    padding: 0 2px 0 2px;
+    border-radius:1px;
+}
+
+.search:hover input, .search input:focus {
+    width: 200px;
+    margin-left: 0px;
+}
+
+.btn {
+    background-color: #2e6da4;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border-radius:6px;
+}
+
+.container-head{
+    max-height: 14em;
+    background-color: #002147;
+}
+
+.container-head > header {
+	width: 100%;
+	max-width: 100em;
+	margin: 0 auto;
+	padding: 0 1.875em 3.125em 1.875em;
+}
+
+.container-head > header {
+	padding: 2.875em 1.875em 1.875em;
+}
+
+.container-head > header h1 {
+	font-size: 2.125em;
+	line-height: 1.3;
+	margin: 0;
+	float: left;
+	font-weight: 400;
+}
+
+.container-head > header span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding: 0 0 0.6em 0.1em;
+}
+
+.container-head > header nav {
+	padding-left: 5em;
+}
+
+.container-head > header nav a {
+	font-weight: 900;
+	display: block;
+	float: left;
+	position: relative;
+	width: 3em;
+	height: 3em;
+	background: #fff;
+	border-radius: 50%;
+	color: transparent;
+	margin: 0 0.1em;
+	border: 4px solid #47a3da;
+	color: green;
+	text-align: center;
+	padding-top: 0.55em;
+
+}
+
+
+.container-head > header nav a:after {
+	content: attr(data-info);
+	color: #47a3da;
+	position: absolute;
+	width: 600%;
+	top: 120%;
+	text-align: right;
+	right: 0;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.container-head > header nav a:hover:after {
+	opacity: 1;
+}
+
+.container-head > header nav a:hover {
+	text-decoration: none;
+	background: #47a3da;
+	color: white;
+}
+
+.icon-drop:before, 
+.icon-arrow-left:before {
+	font-family: 'fontawesome';
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 2;
+	text-align: center;
+	color: #47a3da;
+	-webkit-font-smoothing: antialiased;
+	text-indent: 8000px;
+	padding-left: 8px;
+}
+
+.container-head > header nav a:hover:before {
+	color: #fff;
+}
+
+.icon-drop:before {
+	content: "\e000";
+}
+
+.icon-arrow-left:before {
+	content: "\f060";
+}
+
+.main{
+    margin-top: 2em;
+	background-color: ghostwhite;
+    z-index: 500;
+}
+
+.navbar-toggle{
+    background-color: #002147;
+}
+.navbar-toggle .icon-bar{
+    background-color: aliceblue;
+}
+
+    
+/************************************************************
+*************************End of Navbar***********************
+*************************************************************/
+
+/************************************************************
+*************************Content*****************************
+*************************************************************/
+
+
+#content{
+    border-top: 3px solid silver;
+    margin-bottom: 5em; 
+    
+}
+
+#page-dir{
+    margin: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a19c96;
+    font-family: monospace;
+}
+
+#page-dir a{
+    color: inherit;
+    cursor:pointer;
+}
+
+.back-to-top {
+    padding: 1.2em;
+    padding-bottom: 2em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    display:none;
+}
+
+
+/************************************************************
+*************************End of Content**********************
+*************************************************************/
+
+/************************************************************
+*************************Footer******************************
+*************************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+.footer1 {
+    color: gainsboro;
+    background-color: #293352;
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 40px;
+	padding-left: 0;	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;
+}
+
+
+.title-widget {
+	color: #898989;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.title-widget::before {
+    background-color: #8ce08b;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+
+
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+.widget_archive ul li {
+    background-color: rgba(0, 0, 0, 0.3);
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 7px;
+    width: 3px;
+}
+
+
+.widget_nav_menu ul li {
+    color: darkgrey;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+	position: relative;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+	width:95%;
+}
+
+.col-line{
+    border-left: 1px solid gray;
+}
+
+.social-icons{
+    margin-top: 3em;
+    margin-left: 3em;
+}
+
+.social:hover {
+	-webkit-transform:scale(0.9); 
+	-moz-transform:scale(0.9); 
+	-o-transform:scale(0.9); 
+}
+
+.social {
+    margin-left: -1px;
+	-webkit-transform:scale(0.8);
+	/* Browser Variations: */
+	-moz-transform:scale(0.8);
+	-o-transform:scale(0.8); 
+	-webkit-transition-duration: 0.5s; 
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+}           
+/* 
+    Only Needed in Multi-Coloured Variation 
+                                               */
+.social-fb:hover {
+	color: #3B5998;
+}
+.social-tw:hover {
+	color: #4099FF;
+}
+.social-gp:hover {
+	color: #d34836;
+}
+.social-em:hover {
+	color: #f39c12;
+}
+.nomargin { margin:0px; padding:0px;}
+
+
+
+.footer-bottom {
+    
+    background-color: #353c47;
+    min-height: 30px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+
+/************************************************************
+*************************End of Footer***********************
+*************************************************************/
+

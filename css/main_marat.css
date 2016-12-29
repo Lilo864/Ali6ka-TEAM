@@ -1,0 +1,288 @@
+.BD h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 300px;
+    margin: 12px auto;
+}
+.BD p{
+display: inline-block;
+margin-left: 10.5%;
+margin-top: 4%;
+width: 20%;
+font-size: 120%;
+padding-right: 2%;
+line-height:35px;
+}
+
+
+.MS h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 300px;
+    margin: 12px auto;
+}
+.MS p{
+display: inline-block;
+margin-left: 10.5%;
+margin-top: 4%;
+width: 20%;
+font-size: 120%;
+padding-right: 2%;
+line-height:35px;
+}
+
+
+.C h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 200px;
+    margin: 12px auto;
+}
+.C p{
+ display: inline-block;
+margin-left: 10.5%;
+margin-top: 4%;
+width: 20%;
+font-size: 120%;
+padding-right: 2%;
+line-height:35px;
+}
+
+
+.TF h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 200px;
+    margin: 12px auto;
+}
+
+.TF p{
+
+margin-left: 10.5%;
+margin-top: 1%;
+width: 80%;
+font-size: 120%;
+padding-right: 2%;
+line-height:35px;
+border-bottom: solid 1.5px lightskyblue;
+}
+
+.three p{
+   margin-left: 10.5%;
+margin-top: 1%;
+width: 80%;
+font-size: 120%;
+padding-right: 2%;
+line-height:35px;
+
+}
+
+.three h3{
+   margin-left: 10.5%;
+  font-weight: 600; 
+}
+
+.TF h3{
+  margin-left: 10.5%;
+  font-weight: 600;
+}
+
+
+
+.EP h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 400px;
+    margin: 12px auto;
+}
+
+
+.EP p{
+    display: block;
+margin-left: 2%;
+margin-top: 4%;
+width: 80%;
+font-size: 120%;
+padding-right: 2%;
+line-height: 35px;
+}
+
+
+
+
+.FS h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 400px;
+    margin: 12px auto;
+}
+
+.FS p{
+    margin-top: 4%;
+    margin-left: 4.5%;
+      display: block;
+text-align: center;
+width: 90%;
+font-size: 120%;
+
+line-height: 35px;
+}
+
+.E h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 400px;
+    margin: 12px auto;
+}
+
+.E h2{
+    margin-left: 10%;
+  font-weight: 600;
+  border-bottom: solid 1px lightskyblue;
+  width: 8%;
+}
+
+
+.E p{
+    display: block;
+margin-left: 10%;
+margin-top: 2%;
+width: 80%;
+font-size: 120%;
+padding-right: 2%;
+line-height: 35px;
+}
+
+
+
+
+.HR h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 400px;
+    margin: 12px auto;
+}
+
+#ph1 {
+    height: 75px;
+    width: 259px;
+    float:right;
+}
+
+.HR p{
+    margin-top: 0;
+    width: 20%;
+    font-size: 120%;
+}
+
+.HR p2{
+     display:inline-block;
+margin-left: 10%;
+margin-top: 4%;
+width: 35%;
+font-size: 120%;
+padding-right: 2%;
+
+}
+
+.AP h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 400px;
+    margin: 12px auto;
+}
+
+.AP p1{
+display: inline-block;
+margin-left: 10.5%;
+margin-top: 4%;
+width: 20%;
+font-size: 120%;
+padding-right: 2%;
+line-height:35px;
+}
+
+.AP h2{
+ border-bottom: solid 1.5px lightskyblue;   
+}
+
+
+
+
+
+
+.OD h1{
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 3px lightskyblue;
+    width: 400px;
+    margin: 12px auto;
+} 
+
+.OD p{
+    width: 97%;
+    font-size: 120%;
+    text-align: center;
+}
+
+
+
+#shaidullaev{
+    margin-top: 5%;
+    height: 259px;
+    width: 259px;
+    margin-left: 40%;
+}
+
+/* end of content */
+/*--------------------------------------------------------------------------------------------------------------*/
+
